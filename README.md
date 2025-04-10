@@ -1,28 +1,26 @@
+
+
 # Student Performance Tracker
 
-This is a web-based application designed to help track and analyze student performance effectively.
+A Java + MySQL console application to manage and view student marks and grades.
 
 ## Features
-- Add and manage student profiles
-- Record and update marks
-- View student performance reports
-- User-friendly dashboard
-- Responsive design
+- Add student marks
+- View all records
+- Analyze performance (average, grade)
+- Update and delete records
+- MySQL database integration
 
-## Technologies Used
-- HTML, CSS, JavaScript
-- Node.js (optional if using server)
-- MySQL (optional for database)
-- Git & GitHub for version control
+## Tech Stack
+- Java
+- MySQL
+- JDBC
 
-## How to Use
-1. Clone the repository
-2. Run the project using a live server or browser
-3. View and manage student records
+## Setup
+1. Create MySQL DB using `student_db.sql`.
+2. Update your MySQL password in `DatabaseConnection.java`.
+3. Compile & run the `Main.java`.
 
-## Screenshots
-_Add screenshots here after capturing_
+## Author
+Pavithra M
 
----
-
-Created by **Pavithra M**
